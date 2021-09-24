@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Linq;
 using HospiEnCasa.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
 namespace HospiEnCasa.App.Persistencia
 {
@@ -31,6 +33,13 @@ namespace HospiEnCasa.App.Persistencia
         Paciente IRepositorioPaciente.GetPaciente(int idPaciente)
         {
             return _appContext.Pacientes.Find(idPaciente);
+            /*
+            var pac = _appContext.Pacientes
+                       .Where(p => p.Id == idPaciente)
+                       .Include(p => p.Medico)
+                       .FirstOrDefault();
+            return pac;
+            */
         }
 
         Paciente IRepositorioPaciente.UpdatePaciente(Paciente paciente)

@@ -13,11 +13,11 @@ namespace HospiEnCasa.App.Consola
         {
             Console.WriteLine("Hello World!");
             //AddPaciente();
-            //BuscarPaciente(1);
+            BuscarPaciente(1);
             //EliminarPaciente(2);
             //MostrarPacientes();
             //AddMedico();
-            AsignarMedico();
+            //AsignarMedico();
         }
         private static void AddPaciente()
         {
@@ -38,7 +38,7 @@ namespace HospiEnCasa.App.Consola
         private static void BuscarPaciente(int idPaciente)
         {
             var paciente = _repoPaciente.GetPaciente(idPaciente);
-            Console.WriteLine(paciente.Nombre + " " + paciente.Apellidos);
+            Console.WriteLine(paciente.Medico.Nombre);
         }
         private static void EliminarPaciente(int idPaciente)
         {
