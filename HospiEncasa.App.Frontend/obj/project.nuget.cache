@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ko8FG47fPirW6dKjTOZ/EWOGwdaVnBGogY/t5qbft381MSAZjnW9Mw5OkrPUF/98AYdHar4lNtzFlCXnquB/yQ==",
+  "dgSpecHash": "sdqXP6CdaQSw6Yt/FqZ6U35V70Urvsb9Cj3Vflh7zegyAJKSP8tbYr3lK3l45PCIHdYBIMqpWTvgQuNJFHi7XA==",
   "success": true,
-  "projectFilePath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEncasa.App.Frontend.csproj",
+  "projectFilePath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Frontend\\HospiEncasa.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Heri\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Heri\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

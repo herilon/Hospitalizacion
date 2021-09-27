@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEncasa.App.Frontend.csproj": {}
+    "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Frontend\\HospiEncasa.App.Frontend.csproj": {}
   },
   "projects": {
     "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj": {
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEncasa.App.Frontend.csproj": {
+    "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Frontend\\HospiEncasa.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEncasa.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Frontend\\HospiEncasa.App.Frontend.csproj",
         "projectName": "HospiEncasa.App.Frontend",
-        "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\HospiEncasa.App.Frontend.csproj",
+        "projectPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Frontend\\HospiEncasa.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\Heri\\.nuget\\packages\\",
-        "outputPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Frontend\\obj\\",
+        "outputPath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Heri\\AppData\\Roaming\\NuGet\\NuGet.Config",
