@@ -9,15 +9,19 @@ namespace HospiEnCasa.App.Consola
     {
         private static IRepositorioPaciente _repoPaciente = new RepositorioPaciente();
         private static IRepositorioMedico _repoMedico = new RepositorioMedico();
+        private static IRepositorioSignoVital _repoSignoVital = new RepositorioSignoVital();
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             //AddPaciente();
-            BuscarPaciente(1);
+            //BuscarPaciente(1);
             //EliminarPaciente(2);
             //MostrarPacientes();
             //AddMedico();
             //AsignarMedico();
+            //AddSignoVital();
+            AsignarSignoVital();
+            //AsignarPaciente();
         }
         private static void AddPaciente()
         {
@@ -70,8 +74,34 @@ namespace HospiEnCasa.App.Consola
 
         private static void AsignarMedico()
         {
-            var medico = _repoPaciente.AsignarMedico(1, 5);
+            var medico = _repoPaciente.AsignarMedico(3, 5);
             Console.WriteLine(medico.Nombre + " " + medico.Apellidos);
         }
+
+        private static void AddSignoVital()
+        {
+            var signoVital = new SignoVital
+            {
+                FechaHora = new DateTime(1990, 04, 12),
+                Valor = 36.3F,
+                Signo = TipoSigno.TemperaturaCorporal
+            };
+            _repoSignoVital.AddSignoVital(signoVital);
+        }
+
+        private static void AsignarSignoVital()
+        {
+            var signoVital = _repoPaciente.AsignarSignoVital(1, 4);
+            Console.WriteLine(signoVital.Signo + " " + signoVital.Valor);
+        }
+
+        private static void AsignarPaciente()
+        {
+            var paciente = _repoSignoVital.AsignarPaciente(2, 3);
+            Console.WriteLine(paciente.Nombre + " " + paciente.Apellidos);
+        }
+
+
     }
+
 }

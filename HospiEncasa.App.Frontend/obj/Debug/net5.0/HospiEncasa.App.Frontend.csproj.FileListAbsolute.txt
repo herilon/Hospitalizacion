@@ -74,3 +74,4 @@ C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net5.0\Hos
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Medicos\Index.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Pacientes\Details.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa.App\HospiEncasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Pacientes\Create.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEncasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Pacientes\Edit.cshtml.g.cs

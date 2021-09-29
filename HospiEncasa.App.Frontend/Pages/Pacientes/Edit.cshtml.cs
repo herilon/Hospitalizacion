@@ -8,30 +8,32 @@ using HospiEnCasa.App.Dominio;
 using HospiEnCasa.App.Persistencia;
 namespace HospiEnCasa.App.Frontend.Pages.Pacientes
 {
-    public class CreateModel : PageModel
+    public class EditModel : PageModel
     {
         private readonly IRepositorioPaciente _repoPaciente;
         public Paciente paciente {get; set;}
-        public CreateModel(IRepositorioPaciente repoPaciente)
+        public EditModel(IRepositorioPaciente repoPaciente)
         {
             _repoPaciente = repoPaciente;
         }
-        public void OnGet()
-        {
-            paciente = new Paciente();
-        }
 
-        public IActionResult OnPost(Paciente paciente)
+        public IActionResult OnGet(int id)
         {
-            if (ModelState.IsValid)
+            paciente = _repoPaciente.GetPaciente(id);
+            if(paciente == null)
             {
-                _repoPaciente.AddPaciente(paciente);
-                return RedirectToPage("Index");
+                return NotFound();
             }
             else
             {
                 return Page();
             }
+        }
+
+        public IActionResult OnPost(Paciente paciente)
+        {
+            _repoPaciente.UpdatePaciente(paciente);
+            return RedirectToPage("Index");
         }
     }
 }

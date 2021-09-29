@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SjyZFlD3VZg/6lKFNOdeLNVCp/4lFsbCd8LFSL8pvS3WW6WBM/MGvqVseZXHgFQz6+2grRnBZEcYX18DWNRE1w==",
+  "dgSpecHash": "B8psT3y56qNgDS05FM2pA+NqqL1bQSI5e31sGZTE+9g/WTdAttlD8EfB5PACTZ6Z//Qjbg4X2aJyeMzsjBvcUA==",
   "success": true,
-  "projectFilePath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+  "projectFilePath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

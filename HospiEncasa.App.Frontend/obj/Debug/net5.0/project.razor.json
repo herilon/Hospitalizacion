@@ -15664,6 +15664,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Frontend\\Pages\\Pacientes\\Edit.cshtml",
+      "TargetPath": "Pages\\Pacientes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Frontend\\Pages\\Pacientes\\Details.cshtml",
       "TargetPath": "Pages\\Pacientes\\Details.cshtml",
       "FileKind": "mvc"
