@@ -24,5 +24,34 @@
         <th scope="col">Ciudad</th>
         <td>@Model.paciente.Ciudad</td>
     </tr>
+    <tr>
+        <th scope="col">Medico</th>
+        @if (Model.paciente.Medico == null)
+        {
+            <td>
+                <a class="btn btn-primary" asp-page="./AddMedico" asp-route-id="@Model.paciente.Id">
+                    Asignar medico
+                </a>
+            </td>
+        }
+        else
+        {
+            <td>@Model.paciente.Medico.Nombre</td>
+        }
+    </tr>
+    <tr>
+        <th scope="col">Signos vitales</th>
+        <td>
+            <ul>
+                @foreach (var signo in Model.paciente.SignosVitales)
+                {
+                    <li>@signo.Signo - @signo.Valor</li>                    
+                }
+            </ul>
+            <a class="btn btn-primary" asp-page="./AddSignoVital" asp-route-id="@Model.paciente.Id">
+                Asignar signo vital
+            </a>
+        </td>
+    </tr>
 </table>
 <a class="btn btn-primary" asp-page="./Index">Volver</a>

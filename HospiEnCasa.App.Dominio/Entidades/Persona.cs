@@ -13,6 +13,7 @@ namespace HospiEnCasa.App.Dominio
         [Display(Name = "Numero telefonico")]
         public string NumeroTelefono { get; set; }
         public Genero Genero { set; get; }
+
     }
 }
 

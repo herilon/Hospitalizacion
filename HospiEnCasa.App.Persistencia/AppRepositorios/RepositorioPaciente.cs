@@ -32,14 +32,12 @@ namespace HospiEnCasa.App.Persistencia
 
         Paciente IRepositorioPaciente.GetPaciente(int idPaciente)
         {
-            return _appContext.Pacientes.Find(idPaciente);
-            /*
-            var pac = _appContext.Pacientes
+            var paciente = _appContext.Pacientes
                        .Where(p => p.Id == idPaciente)
                        .Include(p => p.Medico)
+                       .Include(p => p.SignosVitales)
                        .FirstOrDefault();
-            return pac;
-            */
+            return paciente;
         }
 
         Paciente IRepositorioPaciente.UpdatePaciente(Paciente paciente)
