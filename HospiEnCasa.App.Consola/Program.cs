@@ -89,13 +89,13 @@ namespace HospiEnCasa.App.Consola
             };
             _repoSignoVital.AddSignoVital(signoVital);
         }
-
+/*
         private static void AsignarSignoVital()
         {
             var signoVital = _repoPaciente.AsignarSignoVital(6, 5);
             Console.WriteLine(signoVital.Signo + " " + signoVital.Valor);
         }
-
+*/
         private static void AsignarPaciente()
         {
             var paciente = _repoSignoVital.AsignarPaciente(2, 3);

@@ -15654,6 +15654,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Frontend\\Pages\\Pacientes\\AddSignoVital.cshtml",
+      "TargetPath": "Pages\\Pacientes\\AddSignoVital.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Hospitalizacion\\HospiEnCasa.App\\HospiEncasa.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

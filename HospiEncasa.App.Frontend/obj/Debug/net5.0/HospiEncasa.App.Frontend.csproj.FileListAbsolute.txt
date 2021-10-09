@@ -78,3 +78,4 @@ C:\Hospitalizacion\HospiEnCasa.App\HospiEncasa.App.Frontend\obj\Debug\net5.0\Raz
 C:\Hospitalizacion\HospiEnCasa.App\HospiEncasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Medicos\Details.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa.App\HospiEncasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Medicos\Create.cshtml.g.cs
 C:\Hospitalizacion\HospiEnCasa.App\HospiEncasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Pacientes\AddMedico.cshtml.g.cs
+C:\Hospitalizacion\HospiEnCasa.App\HospiEncasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Pacientes\AddSignoVital.cshtml.g.cs
